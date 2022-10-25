@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Área Pastoral Santa Luzia</title>
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Área Pastoral</h2>
+        <h1>Santa Luzía</h1>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="menu">
+                <ul class="pcMenu">
+                    <li id="home" onclick="changeLayout('index1')">Início</li>
+                    <li id="calen" onclick="changeLayout('index2')">Calendário</li>
+                    <li id="finac" onclick="changeLayout('index3')">Financeiro</li>
+                    <li>Mais
+                        <ul>
+                            <li id="casam">Casamento</li>
+                            <li id="batis">Batismo</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="mobMenu">
+                    <li><img class="icon" src="https://img.icons8.com/sf-black/64/000000/menu.png"/>
+                        <ul>
+                            <li id="home" onclick="changeLayout('index1')">Início</li>
+                            <li id="calen" onclick="changeLayout('index2')">Calendário</li>
+                            <li id="finac" onclick="changeLayout('index3')">Financeiro</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="conteudo">
+                <div id="index1" class="inicio">
+                    <div class="left"><div class="titulo">Inicio</div><div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius risus non purus semper viverra. Maecenas libero quam, pulvinar id ex eget, suscipit ornare sapien. Vivamus vitae urna molestie, consectetur risus id, gravida felis. Aliquam dignissim id metus ut ornare. Sed bibendum orci non lorem sodales, vel interdum nisl bibendum. In at lobortis libero. Donec vitae magna sit amet nulla fringilla maximus. Morbi sed felis neque. Quisque pulvinar neque et ligula vehicula, vel elementum felis interdum. Pellentesque dapibus libero est, id imperdiet purus feugiat in. Quisque augue eros, suscipit vitae iaculis quis, vulputate a ligula. In iaculis pellentesque urna, scelerisque imperdiet dolor dictum at. Donec a tristique sapien, ut pharetra tellus. Nam non mauris elementum, tempus neque ac, fringilla lectus.</div></div>
+                    <div class="right">
+                        <h3>Eventos</h3>
+                        <ul id="events">
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div id="index2" class="calendario">
+                    Calendário
+                </div>
+                <div id="index3" class="finaceiro">
+                    Financeiro
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
